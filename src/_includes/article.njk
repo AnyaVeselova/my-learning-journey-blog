@@ -2,8 +2,8 @@
 layout: base.njk 
 ---
       <article class="main-article">
-        <a  href="{{ post.netlify.url }}" class="btn btn--primary">Live</a>
-        <a  href="{{ post.gitHub.url }}" class="btn btn--secondary">Live</a>
+        <a  href="{{ post.data.liveBtn}}" class="btn btn--primary">Live</a>
+        <a  href="{{ post.data.repoBtn }}" class="btn btn--secondary">Live</a>
         <div class="container container--narrow flow">
           <h1 class="article-title">{{title}}</h1>
           <figure class="main-article__figure">
