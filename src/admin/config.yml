@@ -15,6 +15,8 @@ collections:
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Description", name: "description", widget: "string" }
+      - { lavel: "Live Button", name: "live button", widget: "url" }
+      - { lavel: "Repo Button", name: "repo button", widget: "url" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
