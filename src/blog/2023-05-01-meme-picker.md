@@ -5,7 +5,7 @@ description: >-
   on Scrimba. I followed the module's lessons and accomplished some stretch
   goals. .
 author: Anna Veselova
-repoName: Meme-generator
+repoName: cats-gifs-js
 date: 2023-05-01T16:36:13.536Z
 tags:
   - post
