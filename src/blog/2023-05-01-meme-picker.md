@@ -10,8 +10,7 @@ tags:
   - post
 image: /assets/blog/meme-picker.png
 imageAlt: A snippet of the project,
-liveBtn: https://twimba-clone-project.netlify.app
-repoBtn: https://github.com/AnyaSonina/twimba-clone-project
+repoName: twimba-clone-project
 ---
 
 _**What I learned following through the module:**_

@@ -4,13 +4,12 @@ description: >-
   A Twitter clone made on "Front-end Career Path" Scrimba course. I set some
   stretch goals and made the project "my own".
 author: Anna Veselova
-liveBtn: https://twimba-clone-project.netlify.app
-repoBtn: https://github.com/AnyaSonina/twimba-clone-project
 date: 2023-05-01T16:24:05.655Z
 tags:
   - post
 image: /assets/blog/twimba.png
 imageAlt: A snippet of the "Twimba" project
+repoName: twimba-clone-project
 ---
 
 This Twimba project was fun to build because I felt that it's something that real developers can make on their jobs. During the course, we covered the following topics:
