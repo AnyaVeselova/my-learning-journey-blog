@@ -5,12 +5,12 @@ description: >-
   on Scrimba. I followed the module's lessons and accomplished some stretch
   goals. .
 author: Anna Veselova
+repoName: Meme-generator
 date: 2023-05-01T16:36:13.536Z
 tags:
   - post
 image: /assets/blog/meme-picker.png
-imageAlt: A snippet of the project,
-repoName: twimba-clone-project
+imageAlt: 'A snippet of the project,'
 ---
 
 _**What I learned following through the module:**_
