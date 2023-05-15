@@ -14,7 +14,7 @@ imageAlt: The image of the "React Tenzi Dice Game" project
 ---
 Welcome to the project! 
 
-**_How did I build it?_**
+_**How did I build it?**_
 
  I built it using npm create-react-app on VS Code and local server. The project has 2 components. All the functionality is happening inside the App component:
 
@@ -28,10 +28,18 @@ Welcome to the project!
 
 The Die component takes props and conditionally renders a die and style it, depending on the props.value and props.isHeld. The holdDice prop function is passed to the component's onClick event.
 
-**_Going above and beyond: _**
+_**Going above and beyond: **_
 
 1. I added the timer and the roll counter to the project.
 
-![](/assets/blog/timer-tenzies.png)
+![null](/assets/blog/timer-tenzies.png)
 
-2.
+ 2. I created 2 useEffects to save the current and best results of the game in local storage. To calculate the best result I used the Array.reduce method. 
+
+![](/assets/blog/results-tenzies.png)
+
+3. I set the game to start both on a "roll" button click and on a die click for a better UI.
+
+4. I rendered the real dice instead of numbers by adding the number of spans with the "dot" class equal to the props.value. 
+
+5. In terms of styling I added some watermarks here and there and allocated a separate div for the results.
