@@ -14,7 +14,7 @@ imageAlt: The image of the "React Tenzi Dice Game" project
 ---
 Welcome to the project! 
 
-_**How did I build it?**_
+**_How did I build it?_**
 
  I built it using npm create-react-app on VS Code and local server. The project has 2 components. All the functionality is happening inside the App component:
 
@@ -28,6 +28,10 @@ _**How did I build it?**_
 
 The Die component takes props and conditionally renders a die and style it, depending on the props.value and props.isHeld. The holdDice prop function is passed to the component's onClick event.
 
+**_Going above and beyond: _**
 
+1. I added the timer and the roll counter to the project.
 
-_**Going above and beyond: **_
+![](/assets/blog/timer-tenzies.png)
+
+2.
