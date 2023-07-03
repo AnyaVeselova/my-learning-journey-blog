@@ -4,7 +4,7 @@ description: >-
   This is a Solo project I created following Scrimba's "Frontend career path".
   It was a final project in "React Basics" module.  
 author: Anna Veselova
-repoName: quizzical
+repoName: quiz-game-solo
 date: 2023-05-15T13:17:46.885Z
 tags:
   - post
