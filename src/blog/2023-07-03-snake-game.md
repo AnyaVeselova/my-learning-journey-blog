@@ -26,4 +26,10 @@ I styled the snake itself by rounding the snake's divs with border-radius. I set
 
 I started by appending the width*width number of squares to the game field (game-grid). After that, I drew the snake in the grid by creating a currentSnake array, iterating over it using **forEach method**, and parsing each snake index through into the grid squares array, while applying the "snake" class to each one.  
 
-![](/assets/blog/draw-snake.png)
+![null](/assets/blog/draw-snake.png)
+
+Then I created the move() function, which is responsible for the core events in the game. I started with a basic snake's moving logic implementation and then created conditions for when the game should finish. The core moving logic is next:
+
+![](/assets/blog/snake-move.png)
+
+I removed the last element of the currentSnake array using **pop() **array method, then I removed its styling by parsing the element through into the squares array and using **classList.remove method**, I also removed the styling of the snake's head. After that, I **unshifted() **a new head (which is the first element of the currentSnake array + direction) to the currentSnake array and added the styling back to eat, so our snake png could appear in the new square.
