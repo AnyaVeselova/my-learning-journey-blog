@@ -1,0 +1,27 @@
+---
+title: 'Snake Game '
+description: >-
+  This is a project I built for "Founders and Coders" software development
+  apprenticeship. One of the requirements was to build it using only HTML, CSS
+  and JavaScript. Look further to get to know how I accomplished this goal.
+author: Anna Veselova
+repoName: snake-game-fc
+date: 2023-07-03T16:51:43.559Z
+tags:
+  - post
+image: /assets/blog/screenshot 2023-07-03 175907.png
+imageAlt: An image of the "Snake Game" project
+---
+**How did I build the game?**
+
+**HTML and CSS:**
+
+**Firstly, **I set up an HTML for the game by creating a grid container, that contains the title of the game and mode switching button, the primary grid, where the game takes place, the div with the information about the game, and the container for buttons, which appear on small screens. I styled it with CSS, using grid-area property and a "mobile-first" approach, which means that I styled everything for mobiles first, and after that, I created media queries for bigger screens. For the buttons, I conditionally rendered them on small screens by watching the width of the screen in JavaScript with the use of **window.innerWidth** property.** **
+
+I styled the snake itself by rounding the snake's divs with border-radius. I set the background image of the snake head to a png file, so my snake can be true to itself, but I **encountered a problem** when I was creating the move() function: the snake's head png didn't rotate in the direction it was moving. I **solved it** by rotating the** **snake's head in **if/else statement** on the direction change. After that, I made sure that the following squares don't rotate by mapping through the squares and setting the rotation to 0 degrees if they don't contain the "head" class. 
+
+![](/assets/blog/snake-direction.png)
+
+
+
+**The logic of the game (JavaScript):**
