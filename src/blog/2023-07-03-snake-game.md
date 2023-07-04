@@ -78,14 +78,12 @@ I created the levelTwo() function that sets a new targetScore and starts a new g
 
 You can see the best score displayed in one of the boxes on the page. That was achieved by saving the best score to the local storage and clearing it on different occasions, so the best score could be displayed when the snake hit the wall and the game wasn't finished, when the level targetScore was achieved, and in the level 2. I made it so the best score could display information that corresponds with each level by clearing the local storage in the startGame() function and when the 2nd level is finished. I also reset the score in the local storage when the snake hits one of the walls or hit itself.
 
-
-
 **Starting and finishing the game:**
 
 The startGame() function is responsible for reassigning variables and setting them to their initial state. It also renders the walls depending of weather the level2 variable value. It also returns the snake to its initials state and generates the apple. 
 
 FinishTheGame() function renders the results of the game and if the gameOver variable is true, it renders the message that tells the user that the game is over. It reassigns the level variables and attaches the new event listener to the field of the game, so the game can start again from the first level on its click. 
 
-
-
 **Some styling decisions: **
+
+By clicking the moon icon you have the opportunity to play the game on a different theme. I achieved it by toggling the "light" class on :root custom properties.
