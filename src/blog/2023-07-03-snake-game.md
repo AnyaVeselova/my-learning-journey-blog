@@ -44,7 +44,7 @@ Both functions render different popup text content for a **better user experienc
 
 Here you can also see a nested function permeableWalls(newHeadval) with a parameter, which I invoke several times in if/else statement while providing a newly calculated head of the snake when it hits one of the walls. I make the snake's head appear at the opposite wall, creating the ability for the snake to go through walls in level 2.
 
-![](/assets/blog/go-through-walls.png)
+![null](/assets/blog/go-through-walls.png)
 
 **Detecting direction**
 
@@ -53,3 +53,17 @@ The control() function reassigns the direction variable when one of the arrow ke
 **Making the game mobile-friendly:**
 
 For each key button, I added two event listeners: "mousedown" and "touchstart". I used the handleButtonKeyMove function to handle these events. As id attributes match the corresponding event key strings of the arrow keys on a keyboard, I passed the id string to the control() function to handle the direction change.
+
+**Generating the apple:**
+
+In the generateApple function** **I generated an apple by creating a random index and parsing it through into squares array with a further addition of the "apple" class to it. Do/while loop allowed me to avoid the appearance of the apple either on the snake itself or on the walls in the level 2. 
+
+**Eating the apple:**
+
+The way the snake eats the apple is following:
+
+![](/assets/blog/snake-eats-apple.png)
+
+I detected if the head of the snake match with the apple position, removed the class of "apple", added the tail back to the squares array, modified the currentSnake array so our tail can actually follow the snake and invoked the generateApple function to produce the next apple. 
+
+Along the way, I modified the score and the targetScore of the game, by incrementing the score and decrementing the targetScore. I displayed the scores on every change on the page by using** backticks and curly brackets. **
