@@ -1,6 +1,10 @@
 ---
 title: Oldagram Solo Project
-description: This was a Solo project at "Frontend development career path" course.
+description: >-
+  This was a Solo project at "Frontend development career path" course. I made
+  it without an assistance. The main focus was on using semantic HTML and making
+  the project accessible. Go to the article to find out how I made the project
+  my own by going above and beyond the course requirements. 
 author: Anna Veselova
 repoName: oldagram-solo-project
 date: 2023-05-01T21:48:59.832Z
@@ -11,17 +15,13 @@ imageAlt: The image of the project
 ---
 Welcome to the funny Oldagram solo project.
 
-
-
-**_The requirements of the project were:_**
+_**The requirements of the project were:**_
 
 ![](/assets/blog/screenshot 2023-01-27 114500.png)
 
 Although it was HTML and CSS practice, I managed to implement some JS features, too (I am just in love with Java Script). I also did some stretch goals. 
 
-
-
-**_What I have done_**
+_**What I have done**_
 
 I decided to render all data, that was given in an array. To accomplish that I used JS. I mapped through the data array and created a post with an HTML layout with the data from the array. After that, I added the layout to the <main> section of the DOM. 
 
@@ -46,9 +46,7 @@ It made their outline visible.
 
 Now for the more difficult part...
 
-
-
-**_Going above and beyond_**
+_**Going above and beyond**_
 
 I couldn't bear it when my icons do nothing. I decided to make my heart icon increase likes. It wasn't easy to accomplish, because they kept increasing the likes of each post when clicking only one.
 
@@ -62,9 +60,7 @@ Secondly, I created a callback function with the id parameter, so we can check w
 
 Finally, I mapped through the icons again and added an event listener to each icon with our callback function, passing the id of the icon (for that I used an arrow function to be able to pass the argument to the callback function).
 
-
-
-**_Important takeaways_**
+_**Important takeaways**_
 
 * Margins (when the element touches its parent element, its top margin will merge with the parent's bottom margin). Solution: add the padding to the parent element.
 * It's quite common not to use ID for styling.
