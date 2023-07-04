@@ -87,3 +87,28 @@ FinishTheGame() function renders the results of the game and if the gameOver var
 **Some styling decisions: **
 
 By clicking the moon icon you have the opportunity to play the game on a different theme. I achieved it by toggling the "light" class on :root custom properties.
+
+
+
+**What did I learn:**
+
+These are the methods I've learned and practised by building the game:
+
+![](/assets/blog/learned.png)
+
+* ES6 spread operator
+* Do/while loop
+* logical not
+* writing arrow function expressions
+* using ternary operator
+* how to pass arguments to functions
+* how to write pseudo code and break big goals to smaller ones
+* grid and grid-area 
+* how to style a document using a "mobile-first" approach
+* how to pay attention to small things and never forget about the UI
+* how contrast is important in the UI and even subtle shade sometimes is crucial
+
+
+**What will I do differently next time:**
+
+Next time I will try to acquire knowledge of building similar games with Canvas API and divide the code to different functional components.
