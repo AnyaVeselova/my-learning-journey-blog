@@ -5,7 +5,7 @@ author: Anna Veselova
 repoName: color-scheme-gen-solo
 date: 2023-05-01T22:49:20.590Z
 tags:
-   - post
+  - post
   - featured
 image: /assets/blog/color-scheme.png
 imageAlt: RGDFG

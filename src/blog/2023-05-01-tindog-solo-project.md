@@ -5,7 +5,7 @@ author: Anna Veselova
 repoName: tindog-solo
 date: 2023-05-01T22:42:06.562Z
 tags:
-   - post
+  - post
   - featured
 image: /assets/blog/tindog.png
 imageAlt: rtreter
