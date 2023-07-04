@@ -40,4 +40,16 @@ The hitTheWall() function checks if the snake's head hit one of the walls by usi
 
 Both functions render different popup text content for a **better user experience.**
 
-Here you can also see a nested function permeableWalls(newHeadval) with a parameter, which I invoke several times in if/else statement while providing a newly calculated head of the snake when it hits one of the walls. I make the snake's head appear at the opposite wall, creating the ability for the snake to go through wals in level 2.
+**Snake's superpower**
+
+Here you can also see a nested function permeableWalls(newHeadval) with a parameter, which I invoke several times in if/else statement while providing a newly calculated head of the snake when it hits one of the walls. I make the snake's head appear at the opposite wall, creating the ability for the snake to go through walls in level 2.
+
+![](/assets/blog/go-through-walls.png)
+
+**Detecting direction**
+
+The control() function reassigns the direction variable when one of the arrow keys is pressed down. It receives the e.key argument through the event handler function handleKeyMove(). 
+
+**Making the game mobile-friendly:**
+
+For each key button, I added two event listeners: "mousedown" and "touchstart". I used the handleButtonKeyMove function to handle these events. As id attributes match the corresponding event key strings of the arrow keys on a keyboard, I passed the id string to the control() function to handle the direction change.
