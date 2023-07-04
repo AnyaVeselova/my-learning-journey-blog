@@ -1,16 +1,18 @@
 ---
 title: Meme picker
 description: >-
-  This project was created at the "The Frontend Developer Career Patch" course
-  on Scrimba. I followed the module's lessons and accomplished some stretch
-  goals. .
+  This project was created at "The Front-end Developer Career Patch" course on
+  Scrimba. While building it I was practising for of loop, import/export, radio
+  and checkbox inputs, querySelector, getElementsByClassName, classList.remove,
+  .includes(), .filter(). Besides that, I set some stretch goals to myself. Go
+  to the article to see my improvements.
 author: Anna Veselova
 repoName: cats-gifs-js
 date: 2023-05-01T16:36:13.536Z
 tags:
   - post
 image: /assets/blog/meme-picker.png
-imageAlt: 'A snippet of the project,'
+imageAlt: A snippet of the project
 ---
 
 _**What I learned following through the module:**_
