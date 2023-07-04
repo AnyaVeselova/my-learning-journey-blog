@@ -1,8 +1,8 @@
 ---
 title: Quzzical game
 description: >-
-  This is a Solo project I created following Scrimba's "Frontend career path".
-  It was a final project in "React Basics" module.
+  This is a Solo project I created after completing the "React Basics" Scrimba
+  module. Find out about how did I build it and what I've learned.
 author: Anna Veselova
 repoName: quiz-game-solo
 date: 2023-05-15T13:17:46.885Z
