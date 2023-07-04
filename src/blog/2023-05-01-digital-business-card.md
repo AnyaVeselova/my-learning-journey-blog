@@ -1,13 +1,17 @@
 ---
 title: Digital business card
-description: sdfdsfds
+description: >-
+  This was the project I created following Scrimba "Front-end career path". By
+  making it I was practising the implementation of image alt text, flex child
+  containers, inheritance, shorthands, web-safe fonts, color palettes. Look
+  further to read how I made it my own. 
 author: Anna Veselova
 repoName: businesscard-project
 date: 2023-05-01T22:28:53.394Z
 tags:
   - post
 image: /assets/blog/business.webp
-imageAlt: dfdsfsdf
+imageAlt: The image of the "Digital business card" project
 ---
 Today I finished a business card project on Scrimba. A starting point was Per's Harold's business card:
 
