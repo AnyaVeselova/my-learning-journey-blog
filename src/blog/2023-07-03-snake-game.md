@@ -34,8 +34,10 @@ Then I created the move() function, which is responsible for the core events in 
 
 I removed the last element of the currentSnake array using **pop() **array method, then I removed its styling by parsing the element through into the squares array and using **classList.remove method**, I also removed the styling of the snake's head. After that, I **unshifted() **a new head (which is the first element of the currentSnake array + direction) to the currentSnake array and added the styling back to eat, so our snake png could appear in the new square.
 
-The move() function also invokes hitTheWall and hitIItself functions if at least one of them returns a truthy value and redirects into finishTheGame function in such case. HitTheWall function checks if snake's body contains its head, using **ES6 dot notation** for copying the currentSnake array, **array.shift **method for grabbing the head of the snake from that array and **array.some** method to check if the above condition is true.  
+The move() function also invokes hitTheWall and hitIItself functions if at least one of them returns a truthy value and redirects into finishTheGame function in such case. HitTheWall function checks if snake's body contains its head, using **ES6 spread operator** for copying the currentSnake array, **array.shift **method for grabbing the head of the snake from that array and **array.some** method to check if the above condition is true.  
 
 The hitTheWall() function checks if the snake's head hit one of the walls by using calculations with modulus. It returns a boolean value. 
 
-Both functions render different popup textContent for a **better user experience.**
+Both functions render different popup text content for a **better user experience.**
+
+Here you can also see a nested function permeableWalls(newHeadval) with a parameter, which I invoke several times in if/else statement while providing a newly calculated head of the snake when it hits one of the walls. I make the snake's head appear at the opposite wall, creating the ability for the snake to go through wals in level 2.
