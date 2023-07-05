@@ -10,6 +10,7 @@ repoName: twimba-clone-project
 date: 2023-05-01T16:24:05.655Z
 tags:
   - post
+  - featured
 image: /assets/blog/twimba.png
 imageAlt: A snippet of the "Twimba" project
 ---
@@ -17,7 +18,7 @@ This Twimba project was fun to build because I felt that it's something that rea
 
 ![a snippet of the module curriculum](/assets/blog/twimba_studied.png)
 
-**_1. I figured out how to delete a clicked tweet_**
+_**1. I figured out how to delete a clicked tweet**_
 
 ![a snippet of the code](/assets/blog/twimba-delete-tweet.png)
 
@@ -25,7 +26,7 @@ Firstly, I found the clicked object by filtering the array of objects inside the
 
 Next, I learned the method of cutting an item from the array if we only have its value. I found the index of the item and then spliced it from the array, using the splice method. This method changes the initial array, unlike the slice method, which makes a new modified copy of the array.
 
-_**2. I made an option for deleting the user's comment and conditionally rendered a trash icon only for this comment**_
+**_2. I made an option for deleting the user's comment and conditionally rendered a trash icon only for this comment_**
 
 ![a snippet of the code](/assets/blog/delete_comment-twimba.png)
 
@@ -35,7 +36,7 @@ It wasn't much different from the 1st step, but to accomplish this I filtered th
 
 Then I conditionally rendered the trash icon if the reply handle was equal to the user's value. I used a ternary operator for the goal and curly braces.
 
-_**3. I created the ability to reply to a specific tweet**_
+**_3. I created the ability to reply to a specific tweet_**
 
 Firstly, I created a form with textarea and input with the type "submit". I set a data attribute to the textarea element and gave both elements id with the tweet.id in it so I can get elements, which belong to a specific tweet.
 
@@ -43,7 +44,7 @@ Firstly, I created a form with textarea and input with the type "submit". I set 
 
 In the code above I filtered the data array with our tweets and returned the "clicked" tweet object. I grabbed input and textarea and then added an event listener to a button. If the textarea element has a value, I added a new reply object to the beginning of the replies array inside the chosen tweet object. After that I rendered the document and cleared the textarea field.
 
-_**4. I managed to save likes, retweets, and comments to local storage**_
+**_4. I managed to save likes, retweets, and comments to local storage_**
 
 I did it by declaring a new variable (newTweetData) that stores tweetsData array and saving it to local storage in a render function. After it's been saved, I fetched it from the local storage in a global scope and reassigned the newTweetData with it.
 
@@ -51,7 +52,7 @@ In this way, local storage tweets objects are continuously being renewed.
 
 If all the tweets were deleted, I reassigned newTweetData back to tweetsData so a user won't be left with an empty app.
 
-**_5. A little bit of styling_**
+_**5. A little bit of styling**_
 
 I borrowed a style of my comments section from this resource:
 
