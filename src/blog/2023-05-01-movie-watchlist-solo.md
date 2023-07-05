@@ -10,6 +10,7 @@ repoName: movie-watchlist-solo
 date: 2023-05-01T22:53:38.163Z
 tags:
   - post
+  - featured
 image: /assets/blog/watchlist.png
 imageAlt: gfdgfd
 ---
