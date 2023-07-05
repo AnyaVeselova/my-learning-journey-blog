@@ -1,6 +1,9 @@
 ---
 title: Unit Converter
-description: This is the project that converts the input
+description: >-
+  This is a Solo project, that converts numbers between metric and imperial
+  units, and it does that for length, volume and mass. Look inside to find out
+  how I built it and what I learned.
 author: Anna Veselova
 repoName: units-conversion-app
 date: 2023-05-01T22:24:17.378Z
@@ -23,7 +26,3 @@ This solo project taught me a lot, thanks to the amazing Scrimba course and teac
 4. I found out how to make a gradient background, using the background-image CSS property. 
 5. I faced one problem, which led me to new knowledge. Firstly, I repeated the same code of unit calculation and HTML rendering in the global scope and on input change. I should reassign the value of units because the input value changes and it is one of the multipliers. Instead, I created 2 functions: one is for the maths calculation and the other one is for rendering units in an HTML document. Then I invoked them twice - in the global scope and in the function when the input value changes. Thus I made my code DRYer.
 6. I added an option to switch the mode to the "light" one. Firstly I created the toggle switch button, adding some icons with font awesome. Then, using the "change" event listener on an input of checkbox type, I toggled the "dark" class on elements I needed to style differently. In CSS I added the "dark" class to the corresponding elements.
-
-**Here's how it looks in the end:**
-
-![null](/assets/blog/light_units.png)
