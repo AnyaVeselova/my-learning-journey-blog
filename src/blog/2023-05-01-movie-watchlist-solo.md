@@ -12,7 +12,7 @@ tags:
   - post
   - featured
 image: /assets/blog/watchlist.png
-imageAlt: gfdgfd
+imageAlt: Movie Watchlist background image
 ---
 Welcome to the "Movie Watchlist" project.
 
